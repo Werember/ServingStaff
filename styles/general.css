@@ -1,0 +1,54 @@
+* {
+  font-family: Roboto , Arial;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /* background-color: rgb(63, 63, 63) !important; 
+  color: aliceblue !important; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+
+  background-color: rgb(255, 255, 255);
+  margin: 50px 170px 0px 170px;
+  /* padding-bottom: px; */
+
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow-x: hidden; /* скрывает горизонтальную прокрутку */
+
+}
+@media (max-width: 1450px) {
+  body {
+    margin: 50px 50px 0px 50px;
+  }
+}
+
+
+
+.main_div_content_bckg_img {
+  background: #fff;
+  background-image: linear-gradient(90deg, #eee 2px, transparent 0), linear-gradient(180deg, #eee 2px, transparent 0);
+  background-position: 0 10px;
+  background-size: 43px 57px;
+  z-index: -1;
+  height: 1fr;
+
+
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+
+
